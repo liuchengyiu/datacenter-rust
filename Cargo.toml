@@ -1,0 +1,13 @@
+[package]
+name = "data_base"
+version = "0.1.0"
+authors = ["liucehngyiu <wanchengquan@hzsaiyue.com>"]
+edition = "2018"
+[dependencies]
+log = "0.4"
+paho-mqtt = {version = "0.7.x", default-features = false, features = ["bundled"]}
+async-std = { version = "1.5", features = ["attributes"] }
+rustc-serialize = "0.3.18"
+chrono = { version = "0.4", features = ["serde"] }
+json = "0.12.4"
+sqlite = "0.25.3"
