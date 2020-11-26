@@ -1,5 +1,5 @@
 [package]
-name = "data_base"
+name = "database"
 version = "0.1.0"
 authors = ["liucehngyiu <wanchengquan@hzsaiyue.com>"]
 edition = "2018"
@@ -11,3 +11,4 @@ rustc-serialize = "0.3.18"
 chrono = { version = "0.4", features = ["serde"] }
 json = "0.12.4"
 sqlite = "0.25.3"
+lazy_static = "1.4.0"
